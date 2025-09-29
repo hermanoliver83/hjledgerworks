@@ -15,7 +15,7 @@ header {
 }
 
 .logo {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
 }
 
@@ -48,7 +48,9 @@ nav a {
   background-color: #001f3f;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
 }
 
 .services {
@@ -76,6 +78,20 @@ nav a {
   padding: 40px 20px;
   background-color: #f0f0f0;
   text-align: center;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
 }
 
 footer {
